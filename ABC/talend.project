@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:TalendProperties="http://www.talend.org/properties">
+  <TalendProperties:Project xmi:id="_mIlqwIPFEeqpJNdXbGBdrg" label="abc" description="" language="java" technicalLabel="ABC" creationDate="2020-04-21T10:02:19.000+0530" author="_mIlqwYPFEeqpJNdXbGBdrg" productVersion="Talend Data Fabric-7.2.1.20190620_1446" url="{&quot;commitLogPattern&quot;:&quot;{0}&quot;,&quot;location&quot;:&quot;https://github.com/vamsi10123/artha&quot;,&quot;login&quot;:&quot;vamsi10123&quot;,&quot;passwd&quot;:&quot;B8Rqx1Xn5sx5RYfPNL2daQ==&quot;,&quot;settings&quot;:&quot;000&quot;,&quot;storage&quot;:&quot;git&quot;}" type="MDM">
+    <migrationTask xmi:id="_mWmRkIPFEeqpJNdXbGBdrg" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
+  </TalendProperties:Project>
+  <TalendProperties:User xmi:id="_mIlqwYPFEeqpJNdXbGBdrg" login="Demo@company.com" firstName="Demo1" lastName="Demo2" type="MDM" additionnalData="{}"/>
+</xmi:XMI>
