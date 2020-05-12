@@ -1,0 +1,211 @@
+package routines;
+
+/*
+ * UDF_HANDLE_AMEX_SPL_CHAR: DECIMAL UDF_HANDLE_AMEX_SPL_CHAR( I_NON_NUMERIC as
+ * string ) To handle special characters in NCARD files A +1 B +2 C +3 D +4 E +5
+ * F +6 G +7 H +8 I +9 J -1 K -2 L -3 M -4 N -5 O -6 P -7 Q -8 R -9 { +0 } -0
+ * 
+ * Example : 12C -> +123 12L -> -123 73190} -> -731900
+ */
+
+//package routines;
+
+public class ToDecimal {
+	public static double toDecimal(String input) {
+		String replaceinput;
+		boolean isint = false;
+		int convertint;
+		double convertdouble;
+		if (input == null) {
+			return (double) (0);
+		}
+
+		try {
+			convertint = Integer.parseInt(input);
+			isint = true;
+			// System.out.println("try block able to parse");
+
+		} catch (Exception e) {
+			isint = false;
+			// System.out.println("catch block able to parse");
+		}
+
+		if (isint == true) {
+			convertint = Integer.parseInt(input);
+			convertdouble = (double) (convertint);
+		} else {
+			if (input.contains("A")) {
+				replaceinput = input.replace("A", "1");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("B")) {
+				replaceinput = input.replace("B", "2");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("C")) {
+				replaceinput = input.replace("C", "3");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("D")) {
+				replaceinput = input.replace("D", "4");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("E")) {
+				replaceinput = input.replace("E", "5");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("F")) {
+				replaceinput = input.replace("F", "6");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("G")) {
+				replaceinput = input.replace("G", "7");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("H")) {
+				replaceinput = input.replace("H", "8");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("I")) {
+				replaceinput = input.replace("I", "9");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("{")) {
+				replaceinput = input.replace("{", "0");
+				try {
+					convertint = Integer.parseInt(replaceinput);
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("J")) {
+				replaceinput = input.replace("J", "1");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("K")) {
+				replaceinput = input.replace("K", "2");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("L")) {
+				replaceinput = input.replace("L", "3");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("M")) {
+				replaceinput = input.replace("M", "4");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("N")) {
+				replaceinput = input.replace("N", "5");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("O")) {
+				replaceinput = input.replace("O", "6");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("P")) {
+				replaceinput = input.replace("P", "7");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("Q")) {
+				replaceinput = input.replace("Q", "8");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("R")) {
+				replaceinput = input.replace("R", "9");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else if (input.contains("}")) {
+				replaceinput = input.replace("}", "0");
+				try {
+					convertint = Integer.parseInt(replaceinput) * -1;
+					convertdouble = (double) (convertint);
+				} catch (Exception e) {
+					return (double) (0);
+				}
+			} else {
+			//	System.out
+				//		.println("Character other than standard case sensitive character set \"A,B,C,D,E,F,G,H,I,{,J,K,L,M,N,O,P,Q,R,}\" found in decimal field. Please check the file");
+				return (double) (0);
+			}
+			// return convertdouble;
+		}
+		return convertdouble;
+	}
+	// public static void main(String args[])
+	// {
+	// System.out.println("check value");
+	// System.out.println("doubel value"+ToDouble.toDouble("1Z"));
+	// }
+}
