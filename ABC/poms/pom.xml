@@ -15,6 +15,7 @@
     <module>jobs/process/remote_0.1</module>
     <module>jobs/process/context_0.1</module>
     <module>jobs/process/contextexample_0.1</module>
+    <module>jobs/process/June/implicit_0.1</module>
   </modules>
   <properties>
     <signer.version>7.2.1</signer.version>
