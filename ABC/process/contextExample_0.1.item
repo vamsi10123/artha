@@ -7,7 +7,7 @@
   <context confirmationNeeded="false" name="Dev">
     <contextParameter comment="" name="Message" prompt="Message?" promptNeeded="false" type="id_String" value="Hello from Dev"/>
     <contextParameter comment="" name="File" prompt="File?" promptNeeded="false" type="id_String" value="C:\\job\\abcd.csv"/>
-    <contextParameter comment="" name="Date" prompt="Date?" promptNeeded="false" type="id_Date" value=""/>
+    <contextParameter comment="" name="Date" prompt="Date?" promptNeeded="false" type="id_Date" value="2020-05-14 20:22:23"/>
   </context>
   <parameters>
     <elementParameter field="TEXT" name="SCREEN_OFFSET_X" show="false" value="0"/>
@@ -138,7 +138,7 @@
       <column comment="" key="false" length="-1" name="msg" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="256" posY="64">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="288" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_1"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
     <elementParameter field="RADIO" name="TABLE_PRINT" value="true"/>
@@ -162,7 +162,7 @@
       <column comment="" key="false" length="-1" name="msg" nullable="true" originalLength="-1" pattern="" precision="-1" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="416" posY="64">
+  <node componentName="tFileInputDelimited" componentVersion="0.102" offsetLabelX="0" offsetLabelY="0" posX="576" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tFileInputDelimited_1"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="LABEL" name="FILENAMETEXT" value="&quot;When the input source is a stream or a zip file,footer and random shouldn't be bigger than 0.&quot;"/>
@@ -224,7 +224,7 @@
       <column defaultValue="" key="false" length="255" name="errorMessage" nullable="true" originalLength="-1" precision="0" sourceType="" type="id_String" usefulColumn="true"/>
     </metadata>
   </node>
-  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="672" posY="64">
+  <node componentName="tLogRow" componentVersion="0.101" offsetLabelX="0" offsetLabelY="0" posX="832" posY="64">
     <elementParameter field="TEXT" name="UNIQUE_NAME" show="false" value="tLogRow_2"/>
     <elementParameter field="CHECK" name="ACTIVATE" value="false"/>
     <elementParameter field="RADIO" name="BASIC_MODE" value="false"/>
@@ -355,13 +355,13 @@
     <elementParameter field="COLOR" name="SUBJOB_TITLE_COLOR" show="false" value="92;131;150"/>
     <elementParameter field="COLOR" name="SUBJOB_COLOR" value="207;226;236"/>
   </subjob>
-<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_a7df2003-609e-4927-be3b-80b9fed10c59"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>Kucz8VJUTo/XQ8ggsNF0HoiYkaruw5/xhL34b9w7j4i5c+ox1JTqytoVD80/3UJrxJDzzoQ70tSI
-T6gFFItO6w==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_3943ba22-58ed-4624-a33e-f18f85089336"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>JX3zDa4ax+jlk9JQ+3+5fls5YZ93M06O8kJ8sWNnaZ8VZujgK60MpGUJwjzmlI4KGqNWjDLsNLKg
-dqM4QQHA2Q==</DigestValue></Reference></SignedInfo><SignatureValue>Fp4EIS4I82L/4pIhpQf/jckLNrOBZI9ynewbI6XOxKW7AEfMDsRyQdNvLsDr5/xF/iMZ1uJ88YwM
-7wA1XmHQ+LA311iqXgcvghZhd7OBrFj6qG5jGAFjHRkqa5N1EBRbafx9Fl8muDjSuxVtOYYu4Q4c
-5yDXZxu6jtMMCl+2qN122mrtiYE3nHKrdiZpJzkMn9MMON3Boc/DfRzPKjYHQhRFQHvwK11zWnV0
-77HrmM6IndxZip3Z82dI5RH9kW7bd8cSvewYVrX/5FSm+vbidP2MBXxEUw5QMtUbDQ3CNpL5k9HY
-txlGtMswzw0t575N1K3MyjwemnDo0HaP3mVOGA==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
+<Signature xmlns="http://www.w3.org/2000/09/xmldsig#" Id="_7cfc3d98-b78c-466a-bc24-c1987780cc53"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>I7qwQu85RtcPbH+fUUABtOFj9X+3ovbjnhwQvoRou26T1dbrrXLpIAWbJMjovbhV971hhQ42D9+k
+3IFlmh4hRg==</DigestValue></Reference><Reference Type="http://www.w3.org/2000/09/xmldsig#SignatureProperties" URI="#_f638445f-2854-45f6-9641-a70c412b50d8"><Transforms><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><DigestValue>SncCqsegXnPPLEe7ckCdEctiRnItKFI1vWmQVHwBmioL6x1hXLuJk4QL2hYyhPLLZwtbRnEW14Me
+HtusBUsPpw==</DigestValue></Reference></SignedInfo><SignatureValue>KnKRnka2tjdBBRIUIqSwo5+hE0gvB3PmjLdiMQn4vhUmiOBayADRZ1BTyEwwsSvzzsgruIYeviFV
+euuKbwnng4jSxJ3qMKYHBxZK2tkpd2MJVvfcewMAjbW8P6DQ+in+hp/0CE453sPitBVFENvPertf
+eJxMypUvDVxLj4gFwinfX6Bd7+I1cu9j/Yg/Iln9wWzEQCs2Incn7qVFZFNOVYaDMYwZUmbS5MmV
+qRMGMeeT+zbF8IeJz6vakKRHBhEDQzGDjgvQm5WSyzxvu/vTB/Fmecy22Ct8jgGHr08JDqXOLfOv
+Kg3X3de40ok9jxFar0qUXWBX6VAbXmjgNUp1cw==</SignatureValue><KeyInfo><X509Data><X509SubjectName>C=FR,ST=Paris,L=Paris,O=Talend Inc.,OU=R&amp;D,CN=Talend Code Signing certificate</X509SubjectName><X509Certificate>MIIFADCCAuigAwIBAgIIA2OsD6bRyj0wDQYJKoZIhvcNAQELBQAwgY0xCzAJBgNVBAYTAkZSMQ4w
 DAYDVQQIEwVQYXJpczEOMAwGA1UEBxMFUGFyaXMxFDASBgNVBAoTC1RhbGVuZCBJbmMuMQwwCgYD
 VQQLDANSJkQxFjAUBgNVBAMMDVRhbGVuZCBSJkQgQ0ExIjAgBgkqhkiG9w0BCQEWE3NlY3VyaXR5
 QHRhbGVuZC5jb20wHhcNMTkwNjAzMDgxODIwWhcNMjkwNjAzMDAwMDAwWjB7MSgwJgYDVQQDEx9U
@@ -383,4 +383,4 @@ hakvpzhOyLo91h8YAQrEZJdNuKA8IYmBrFZQZDCz0uywKSyFfzPyJhvxylCLG/iDPPfE0VWcrMJ/
 WQJly/2XPg/NBCTF3pSKS0kCiA7PeaI3cWkMYYA3PMwYDvzqs1opBRglG7ikj0bQxSm3lcjMuuvW
 gBRksFKjP3K/nztsjSoYITOM9jR29ReIL3v0E8RbAFwA2RGq6Dxd0ixfbucMesy5Gnr8tfYy6rW+
 qSQqd3ah4+PSzBNVwIB4ytpdrG3SlhCI2i2Th8ek8Sjsaquh9qPAerWNd2+84HWOOGj1Xe1qc6vg
-qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_3943ba22-58ed-4624-a33e-f18f85089336" Target="#_a7df2003-609e-4927-be3b-80b9fed10c59"><Timestamp>2020-05-14 12:08:00</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
+qqu6JoK9EXKDiwBqDVkueIa+MhamE1VDnhn2pPui</X509Certificate></X509Data></KeyInfo><Object><SignatureProperties><SignatureProperty Id="_f638445f-2854-45f6-9641-a70c412b50d8" Target="#_7cfc3d98-b78c-466a-bc24-c1987780cc53"><Timestamp>2020-05-14 15:01:53</Timestamp></SignatureProperty></SignatureProperties></Object></Signature></talendfile:ProcessType>
